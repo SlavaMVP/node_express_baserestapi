@@ -1,0 +1,35 @@
+.checkout__header {
+  font-size: 1.3rem;
+}
+
+.payment__input {
+  display: inline-flex;
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+}
+
+.btn--checkout {
+  display: block;
+  padding: 10px;
+  margin: 0 auto;
+  margin-top: 20px;
+  border: none;
+  border-radius: 3px;
+
+  background-color: orange;
+
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.checkout-wrapper {
+  display: flex;
+}
+
+.checkout-wrapper .cart {
+  font-size: 1rem;
+  margin: 0 auto;
+}

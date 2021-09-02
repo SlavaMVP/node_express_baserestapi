@@ -1,0 +1,17 @@
+.userpage-wrapper {
+  max-width: 1200px;
+  font-size: 1.2rem;
+  margin: 0 auto;
+}
+
+.logout-link {
+  float: right;
+  text-decoration: none;
+  padding: 5px 10px;
+  font-size: 18px;
+  background-color: red;
+  color: white;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 5px;
+}

@@ -1,0 +1,21 @@
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.types__list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style: none;
+  font-size: 1.2rem;
+}
+
+.type-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.types__item {
+}

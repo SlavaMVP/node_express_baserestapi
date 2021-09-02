@@ -1,0 +1,4 @@
+.order__details {
+  display: flex;
+  flex-direction: row;
+}

@@ -1,0 +1,88 @@
+form {
+  font-family: sans-serif;
+  font-size: 10px;
+}
+
+form * {
+  box-sizing: border-box;
+  font-size: 1.2em;
+  line-height: 1.5;
+}
+
+.font__header {
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+.form__group {
+  display: flex;
+  flex-direction: column;
+
+  align-content: center;
+  align-items: center;
+  max-width: 100%;
+  width: 350px;
+  margin: 0 auto;
+}
+
+.form__group > * {
+  align-self: flex-start;
+}
+
+.form--login label {
+  font-weight: bold;
+  padding: 1rem 0;
+}
+
+.form__input {
+  -webkit-appearance: none;
+
+  width: 100%;
+  border: 1px solid #ddd;
+  max-width: 25em;
+  padding: 0.5em 1.5em;
+  font-family: inherit;
+
+  background-color: #f9f9f9;
+
+  outline: none;
+  transition: background-color 0.3, border-color 0.3, color 0.3;
+}
+
+.form__input:focus {
+  background-color: #fff;
+}
+
+.form__input::placeholder {
+  color: #bbb;
+}
+
+/*input border error*/
+.form__input--error {
+  color: #d50000;
+  background-color: #fff;
+  border-color: #d50000;
+}
+
+.form__input--error::placeholder {
+  color: #ffbfbf;
+}
+
+.form__error {
+  color: #d50000;
+}
+
+.btn--auth {
+  display: block;
+  padding: 10px;
+  margin: 0 auto;
+  margin-top: 20px;
+
+  align-self: center;
+  justify-self: center;
+}
+
+.register-info {
+  text-align: center;
+  font-size: 1.2em;
+}

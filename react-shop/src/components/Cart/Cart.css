@@ -1,0 +1,49 @@
+.cart__header {
+  font-size: 1.6rem;
+}
+
+.cart {
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+}
+
+.cart > thead {
+  margin-bottom: 20px;
+}
+
+.cart > thead th {
+  padding: 8px 10px;
+}
+
+.cart > tbody td {
+  text-align: center;
+}
+
+.cart > tbody tr:nth-child(even) {
+  background-color: rgb(184, 180, 180);
+}
+
+.cart__total {
+  color: red;
+  padding: 8px 10px;
+}
+
+.btn--order {
+  text-decoration: none;
+  padding: 5px 10px;
+  font-size: 18px;
+  background-color: rgb(0, 89, 255);
+  color: white;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn--order:hover,
+.btn--order:focus {
+  background-color: rgb(248, 63, 63);
+}
+
+.cart__info {
+  font-size: 1.2rem;
+}
